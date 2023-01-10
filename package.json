@@ -1,13 +1,13 @@
 {
   "name": "random-quotes-trans",
   "version": "1.0.0",
-  "description": "",
+  "description": "Get random translations of famous quotes and aphorisms in the terminal",
   "main": "index.js",
   "bin": {
     "qt": "./bin/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["quotes and aphorisms"],
+  "author": "yangxin <wy_yangxin@163.com>",
   "license": "ISC",
   "dependencies": {
     "colors": "^1.4.0",

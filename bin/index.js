@@ -20,7 +20,7 @@ function qt() {
 
 function format(author, content) {
   Promise.all([translate(author), translate(content)]).then((res) => {
-    console.log("名言警句".red)
+    console.log("Aphorisms(名言警句)".red)
     console.log(`${res[1].en}`.blue + "——".yellow + `${res[0].en}`.red)
     console.log(`${res[1].zh.join("")}`.blue + "——".yellow + `${res[0].zh}`.red)
   })
