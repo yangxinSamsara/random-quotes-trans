@@ -1,0 +1,17 @@
+{
+  "name": "random-quotes-trans",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "qt": "./bin/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "superagent": "^8.0.6",
+    "yargs": "^17.6.2"
+  }
+}
